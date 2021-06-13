@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+#header-top {
+  grid-column: 1/2;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+#header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  max-width: 1440px;
+  padding: 15px;
+}
+#header-container #logo-area {
+  padding: 4px;
+}
+#header-container #logo-area a {
+  color: #fff;
+}
+#header-container #logo-area img {
+  width: 135px;
+}
+
+#navbar-top ul {
+  height: 100%;
+}
+#navbar-top li {
+  display: inline;
+  font-size: 1.5rem;
+}
+#navbar-top li span.pipe {
+  color: white;
+  margin: 0px 10px;
+  font-weight: bolder;
+}
+#navbar-top li:nth-child(5) a.navbar-top-link, #navbar-top li:nth-child(6) a.navbar-top-link {
+  color: #d9dadc;
+}
+#navbar-top li a.navbar-top-link {
+  color: white;
+  text-decoration: none;
+  padding: 27px 16px;
+}
+#navbar-top li a.navbar-top-link:hover {
+  color: #2DE26D;
+}
+
+#hambtn {
+  display: none;
+}
+#hambtn .hambtn-bar {
+  background-color: white;
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+}
+
+section#banner {
+  background-color: #9bf0e1;
+  grid-column: 1/2;
+  display: flex;
+  justify-content: center;
+  padding: 70px 0px;
+  color: #2d46b9;
+}
+section#banner #banner-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto auto auto auto;
+  padding: 10px;
+  width: 85%;
+  max-width: 1440px;
+  font-size: 1.8rem;
+}
+section#banner #banner-container #banner-area-1 {
+  grid-column: 1/2;
+  margin: 5px 0px;
+  font-size: 1.6rem;
+}
+section#banner #banner-container #banner-area-2 {
+  grid-column: 1/2;
+  margin: auto 0px;
+  font-weight: 700;
+  font-size: 2.1em;
+}
+section#banner #banner-container #banner-area-3 {
+  grid-column: 1/2;
+  margin: 24px 0px;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+section#banner #banner-container #banner-area-4 {
+  grid-column: 1/2;
+  margin: 24px 0px;
+  font-size: 1.8rem;
+}
+section#banner #banner-container #banner-area-4 a.banner1-link {
+  background-color: #2D46B9;
+  padding: 17px 48px;
+  color: white;
+  border-radius: 500px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  transform: scale(0.9);
+}
+section#banner #banner-container #banner-area-4 a.banner1-link:hover {
+  color: red;
+}
+section#banner #banner-container #banner-area-5 {
+  grid-column: 2;
+  grid-row: 1/5;
+  display: flex;
+  margin: auto 0px;
+}
+section#banner #banner-container #banner-area-5 img {
+  width: 420px;
+}
+
+section#banner-2 {
+  background-color: #2941ab;
+  grid-column: 1/2;
+  display: flex;
+  justify-content: center;
+  padding: 70px 0px;
+  color: #2d46b9;
+}
+section#banner-2 #banner-container-2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto auto auto auto;
+  padding: 10px;
+  width: 85%;
+  max-width: 1440px;
+  color: #2DE26D;
+  font-size: 1.8rem;
+}
+section#banner-2 #banner-container-2 #banner-2-area-1 {
+  grid-column: 1/2;
+  margin: 5px 0px;
+  font-size: 1.6rem;
+}
+section#banner-2 #banner-container-2 #banner-2-area-2 {
+  grid-column: 1/2;
+  margin: auto 0px;
+  font-weight: 700;
+  font-size: 2.1em;
+}
+section#banner-2 #banner-container-2 #banner-2-area-3 {
+  grid-column: 1/2;
+  margin: 24px 0px;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+section#banner-2 #banner-container-2 #banner-2-area-4 {
+  grid-column: 1/2;
+  margin: 24px 0px;
+  font-size: 1.8rem;
+}
+section#banner-2 #banner-container-2 #banner-2-area-4 a.banner2-link {
+  background-color: #2DE26D;
+  padding: 17px 48px;
+  color: white;
+  border-radius: 500px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  transform: scale(0.9);
+}
+section#banner-2 #banner-container-2 #banner-2-area-4 a.banner2-link:hover {
+  color: red;
+}
+section#banner-2 #banner-container-2 #banner-2-area-5 {
+  grid-column: 2;
+  grid-row: 1/5;
+  width: 420px;
+  height: 420px;
+  margin: auto 0px;
+}
+
+footer {
+  background-color: black;
+  grid-column: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer #footer-container {
+  padding: 70px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 85%;
+  max-width: 1440px;
+  color: white;
+}
+footer #footer-container #footer-logo {
+  padding: 4px;
+}
+footer #footer-container #footer-logo a {
+  color: #fff;
+}
+footer #footer-container #footer-logo img {
+  width: 120px;
+}
+footer #footer-container nav {
+  border: 1px solid red;
+}
+footer #footer-container nav h1 {
+  color: #d9dadc;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+footer #footer-container nav ul {
+  list-style: none;
+}
+footer #footer-container nav li {
+  margin: 20px 0px;
+}
+footer #footer-container nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+footer #footer-container nav li a:hover {
+  color: #2DE26D;
+}
+footer #footer-container nav.social-bar {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer #footer-container nav.social-bar ul li {
+  display: inline;
+  margin: 0px 10px;
+}
+footer #footer-container #footer-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-start;
+  margin: 100px 0px 20px 0px;
+  font-size: 0.6rem;
+}
+footer #footer-container #footer-2 nav ul li {
+  display: inline;
+  margin: 20px 25px;
+}
+
+@media (max-width: 1200px) {
+  section#banner {
+    padding: 25px 0px;
+  }
+  section#banner #banner-container {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 95%;
+    text-align: center;
+  }
+  section#banner #banner-container #banner-area-1 {
+    font-size: 1.2rem;
+    margin: 15px 0px;
+  }
+  section#banner #banner-container #banner-area-2 {
+    font-weight: 700;
+    font-size: 1.1em;
+    margin: 25px 0px;
+  }
+  section#banner #banner-container #banner-area-3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 25px 0px;
+  }
+  section#banner #banner-container #banner-area-4 {
+    margin: 25px 0px;
+    font-size: 1.4rem;
+  }
+  section#banner #banner-container #banner-area-4 a.banner1-link {
+    padding: 15px 135px;
+    font-size: 1.4rem;
+    transform: scale(0.9);
+  }
+  section#banner #banner-container #banner-area-4 a.banner1-link:hover {
+    transform: scale(40);
+  }
+  section#banner #banner-container #banner-area-5 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 25px 0px;
+  }
+  section#banner #banner-container #banner-area-5 img {
+    width: 320px;
+  }
+
+  section#banner-2 {
+    padding: 95px 0px;
+  }
+  section#banner-2 #banner-container-2 {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 95%;
+    text-align: center;
+  }
+  section#banner-2 #banner-container-2 #banner-2-area-1 {
+    margin: 5px 0px;
+    font-size: 1.2rem;
+    margin: 15px 0px;
+  }
+  section#banner-2 #banner-container-2 #banner-2-area-2 {
+    font-weight: 700;
+    font-size: 1.1em;
+    margin: 25px 0px;
+  }
+  section#banner-2 #banner-container-2 #banner-2-area-3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 25px 0px;
+  }
+  section#banner-2 #banner-container-2 #banner-2-area-4 {
+    margin: 25px 0px;
+    font-size: 1.4rem;
+  }
+  section#banner-2 #banner-container-2 #banner-2-area-4 a.banner2-link {
+    padding: 15px 135px;
+    font-size: 1.4rem;
+    transform: scale(0.9);
+  }
+  section#banner-2 #banner-container-2 #banner-2-area-4 a.banner2-link:hover {
+    transform: scale(40);
+  }
+  section#banner-2 #banner-container-2 #banner-2-area-5 {
+    display: none;
+  }
+}
+@media (max-width: 990px) {
+  #navbar-top {
+    display: none;
+  }
+
+  #hambtn {
+    display: inline;
+  }
+}
+@media (max-width: 760px) {
+  #header-container {
+    width: 100%;
+    padding: 10px;
+  }
+  #header-container #logo-area img {
+    width: 100px;
+  }
+
+  footer #footer-container {
+    flex-direction: column;
+  }
+  footer #footer-container nav {
+    margin: 15px 0px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
